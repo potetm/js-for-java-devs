@@ -24,27 +24,28 @@
   2. Scoping
     * Functions
     * No block scoping (e.g. for-loops)
-  3. Objects
+  3. Functions
+    * They're objects too
+      * Hidden properties
+        * context
+        * code to execute
+    * Function literals
+  4. Invocation patterns
+    * this
+    * method
+    * function
+      * use of 'that'
+    * constructor
+    * apply
+  5. Objects
     * My original confusion
     * Bag 'o stuffs
     * Protoypal inheritance
     * prototype and [[prototype]]
-  4. Object Creation
+  6. Object Creation
     * Object Literals
       * specs
     * Classical Object Creation
     * Object.create
     * Prototypal Object Creation
     * Functional Object Creation
-  5. Functions
-    * They're objects too
-      * Hidden properties
-        * context
-        * code to execute
-    * Function literals
-  6. Invocation patterns
-    * this
-    * method
-    * function
-    * constructor
-    * apply
