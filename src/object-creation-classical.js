@@ -1,12 +1,12 @@
-var Mammel = function(name) {
+var Mammal = function(name) {
   this.name = name;
 };
 
-Mammel.prototype.getName = function() {
+Mammal.prototype.getName = function() {
   return this.name;
 };
 
-Mammel.prototype.makeSound = function() {
+Mammal.prototype.makeSound = function() {
   return this.sound || 'Me no speakum.';
 };
 
@@ -15,7 +15,7 @@ var Cat = function(name) {
   this.sound = 'Meow';
 };
 
-Cat.prototype = new Mammel();
+Cat.prototype = new Mammal();
 
 Cat.prototype.purr = function() {
   return 'Puuuuuuuuuur';
